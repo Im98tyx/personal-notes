@@ -23,7 +23,7 @@
 ## :paintbrush: MobileNet V1
 
 <center>
-<img src="E:\硕士研究生\CV视觉指南\Step_Six\论文笔记\Light_weight_Deep_Neural_Networks\MobileNets\MobileNets.assets\image-20221225103139546.png" width=40%>
+<img src="/notes/Light_weight_Deep_Neural_Networks/MobileNets/MobileNets.assets/image-20221225103139546.png" width=40%>
 </center>
 <center><font face="微软雅黑" size ='4'>图1</font></center>
 
@@ -34,7 +34,7 @@ MobileNetV1网络主要的贡献点就是深度可分离卷积，最后为了使
 深度可分离卷积由一层深度方向的卷积和一层点卷积组合而成，每一层卷积之后都紧跟着BN层和ReLU激活函数。
 
 <center>
-<img src="E:\硕士研究生\CV视觉指南\Step_Six\论文笔记\Light_weight_Deep_Neural_Networks\MobileNets\MobileNets.assets\image-20221225095810733.png" width=20%>
+<img src="/notes/Light_weight_Deep_Neural_Networks/MobileNets/MobileNets.assets/image-20221225095810733.png" width=20%>
 </center>
 <center><font face="微软雅黑" size ='4'>图2</font></center>
 
@@ -45,7 +45,7 @@ MobileNetV1网络主要的贡献点就是深度可分离卷积，最后为了使
   深度方向卷积操作一个通道只被一个卷积核卷积，没有利用不同通道在相同空间位置上的特征信息，因此还需要一种可以融合不同通道信息的卷积操作。
 
 <center>
-<img src="E:\硕士研究生\CV视觉指南\Step_Six\论文笔记\Light_weight_Deep_Neural_Networks\MobileNets\MobileNets.assets\image-20221224212344173.png" width=60%>
+<img src="/notes/Light_weight_Deep_Neural_Networks/MobileNets/MobileNets.assets/image-20221224212344173.png" width=60%>
 </center>
 <center><font face="微软雅黑" size ='4'>图3</font></center>
 
@@ -58,7 +58,7 @@ MobileNetV1网络主要的贡献点就是深度可分离卷积，最后为了使
   实现将输入特征图在通道方向上进行加权组合，融合不同通道之间的信息从而生成新的特征图。
 
 <center>
-<img src="E:\硕士研究生\CV视觉指南\Step_Six\论文笔记\Light_weight_Deep_Neural_Networks\MobileNets\MobileNets.assets\image-20221224214322985.png" width=60%>
+<img src="/notes/Light_weight_Deep_Neural_Networks/MobileNets/MobileNets.assets/image-20221224214322985.png" width=60%>
 </center>
 <center><font face="微软雅黑" size ='4'>图4</font></center>
 
@@ -83,7 +83,7 @@ MobileNetV1网络主要的贡献点就是深度可分离卷积，最后为了使
   
   
   <center>
-  <img src="E:\硕士研究生\CV视觉指南\Step_Six\论文笔记\Light_weight_Deep_Neural_Networks\MobileNets\MobileNets.assets\image-20221225095011897.png" width=60%>
+  <img src="/notes/Light_weight_Deep_Neural_Networks/MobileNets/MobileNets.assets/image-20221225095011897.png" width=60%>
   </center>
   <center><font face="微软雅黑" size ='4'>图5</font></center>
   
@@ -100,7 +100,7 @@ MobileNetV1网络主要的贡献点就是深度可分离卷积，最后为了使
   图6是使用不同α参数调整网络结构，在ImageNet上的准确率、计算量、参数量之间的关系，可以看出，得到更小的模型一定会牺牲模型的性能。
 
   <center>
-  <img src="E:\硕士研究生\CV视觉指南\Step_Six\论文笔记\Light_weight_Deep_Neural_Networks\MobileNets\MobileNets.assets\image-20221225105619387.png" width=60%>
+  <img src="/notes/Light_weight_Deep_Neural_Networks/MobileNets/MobileNets.assets/image-20221225105619387.png" width=60%>
   </center>
   <center><font face="微软雅黑" size ='4'>图6</font></center>
 
@@ -111,7 +111,7 @@ MobileNetV1网络主要的贡献点就是深度可分离卷积，最后为了使
   从下图可以看出，改变图像的尺寸并不会影响网络的参数量，只改变了网络的Mult-Adds计算量。
 
   <center>
-  <img src="E:\硕士研究生\CV视觉指南\Step_Six\论文笔记\Light_weight_Deep_Neural_Networks\MobileNets\MobileNets.assets\image-20221225110925051.png" width=60%>
+  <img src="/notes/Light_weight_Deep_Neural_Networks/MobileNets/MobileNets.assets/image-20221225110925051.png" width=60%>
   </center>
   <center><font face="微软雅黑" size ='4'>图7</font></center>
 
@@ -124,7 +124,7 @@ MobileNetV1网络主要的贡献点就是深度可分离卷积，最后为了使
 ##  :paintbrush: MobileNet V2
 
 <center>
-<img src="E:\硕士研究生\CV视觉指南\Step_Six\论文笔记\Light_weight_Deep_Neural_Networks\MobileNets\MobileNets.assets\image-20221225112648582.png" width=40%>
+<img src="/notes/Light_weight_Deep_Neural_Networks/MobileNets/MobileNets.assets/image-20221225112648582.png" width=40%>
 </center>
 <center><font face="微软雅黑" size ='4'>图8</font></center>
 
@@ -166,7 +166,7 @@ MobileNet V2主要的贡献就是提出了带有反向残差的线性瓶颈结�
   
 
   <center>
-  <img src="E:\硕士研究生\CV视觉指南\Step_Six\论文笔记\Light_weight_Deep_Neural_Networks\MobileNets\MobileNets.assets\image-20221225184708265.png" width=70%>
+  <img src="/notes/Light_weight_Deep_Neural_Networks/MobileNets/MobileNets.assets/image-20221225184708265.png" width=70%>
   </center>
   <center><font face="微软雅黑" size ='4'>图9</font></center>
 
@@ -183,7 +183,7 @@ MobileNet V2主要的贡献就是提出了带有反向残差的线性瓶颈结�
 反向残差结构如图10所示：
 
 <center>
-<img src="E:\硕士研究生\CV视觉指南\Step_Six\论文笔记\Light_weight_Deep_Neural_Networks\MobileNets\MobileNets.assets\image-20221225192705358.png" width=60%>
+<img src="/notes/Light_weight_Deep_Neural_Networks/MobileNets/MobileNets.assets/image-20221225192705358.png" width=60%>
 </center>
 <center><font face="微软雅黑" size ='4'>图10</font></center>
 
@@ -192,7 +192,7 @@ MobileNet V2主要的贡献就是提出了带有反向残差的线性瓶颈结�
 图11是具体的操作：
 
 <center>
-<img src="E:\硕士研究生\CV视觉指南\Step_Six\论文笔记\Light_weight_Deep_Neural_Networks\MobileNets\MobileNets.assets\image-20221225194810089.png" width=70%>
+<img src="/notes/Light_weight_Deep_Neural_Networks/MobileNets/MobileNets.assets/image-20221225194810089.png" width=70%>
 </center>
 <center><font face="微软雅黑" size ='4'>图11</font></center>
 
@@ -210,7 +210,7 @@ MobileNet V2主要的贡献就是提出了带有反向残差的线性瓶颈结�
   先升维细化每块的特征，然后在降维时每个输出的通道可以融合更多的特征信息。
 
   <center>
-  <img src="E:\硕士研究生\CV视觉指南\Step_Six\论文笔记\Light_weight_Deep_Neural_Networks\MobileNets\MobileNets.assets\image-20221225194606319.png" width=40%>
+  <img src="/notes/Light_weight_Deep_Neural_Networks/MobileNets/MobileNets.assets/image-20221225194606319.png" width=40%>
   </center>
   <center><font face="微软雅黑" size ='4'>图12</font></center>
 
@@ -223,7 +223,7 @@ MobileNet V2主要的贡献就是提出了带有反向残差的线性瓶颈结�
 从下图可以看出通过线性瓶颈和反向残差结构优化了网络，使得网络体积更小、速度更快了。
 
 <center>
-<img src="E:\硕士研究生\CV视觉指南\Step_Six\论文笔记\Light_weight_Deep_Neural_Networks\MobileNets\MobileNets.assets\image-20221225200959016.png" width=40%>
+<img src="/notes/Light_weight_Deep_Neural_Networks/MobileNets/MobileNets.assets/image-20221225200959016.png" width=40%>
 </center>
 <center><font face="微软雅黑" size ='4'>图13</font></center>
 
@@ -236,7 +236,7 @@ MobileNet V3引入了5×5大小的深度卷积代替部分3×3的深度卷积，
 从下图可以看出，相比于MobileNet V2来说在ImageNet分类任务上的准确率提高了3.2%，在Pixel-1手机上的推理速度从64ms减少到了51ms。
 
 <center>
-<img src="E:\硕士研究生\CV视觉指南\Step_Six\论文笔记\Light_weight_Deep_Neural_Networks\MobileNets\MobileNets.assets\image-20221225214524053.png" width=50%>
+<img src="/notes/Light_weight_Deep_Neural_Networks/MobileNets/MobileNets.assets/image-20221225214524053.png" width=50%>
 </center>
 <center><font face="微软雅黑" size ='4'>图14</font></center>
 
@@ -253,7 +253,7 @@ MobileNet V3的网络结构是使用基于神经网络结构搜索技术学习�
   NAS的原理是给定一个称为搜索空间的候选神经网络结构集合（即搜索空间包含了如：深度卷积、逐点卷积、常规卷积、卷积核、规范化、线性瓶颈、反向残差结构、SE模块、激活函数等等可作为原子的结构），用某种策略从中搜索出最优网络结构。神经网络结构的优劣即性能用某些指标如精度、速度来度量，称为性能评估。
 
   <center>
-  <img src="E:\硕士研究生\CV视觉指南\Step_Six\论文笔记\Light_weight_Deep_Neural_Networks\MobileNets\MobileNets.assets\image-20221225220311907.png" width=50%>
+  <img src="/notes/Light_weight_Deep_Neural_Networks/MobileNets/MobileNets.assets/image-20221225220311907.png" width=50%>
   </center>
   <center><font face="微软雅黑" size ='4'>图15</font></center>
 
@@ -274,7 +274,7 @@ MobileNet V3使用platform-aware NAS搜索全局网络结构的优化block，也
 如下图所示就是MobileNet V3网络中使用的模块：
 
 <center>
-<img src="E:\硕士研究生\CV视觉指南\Step_Six\论文笔记\Light_weight_Deep_Neural_Networks\MobileNets\MobileNets.assets\image-20221225222148878.png" width=60%>
+<img src="/notes/Light_weight_Deep_Neural_Networks/MobileNets/MobileNets.assets/image-20221225222148878.png" width=60%>
 </center>
 <center><font face="微软雅黑" size ='4'>图16</font></center>
 
@@ -289,10 +289,10 @@ MobileNet V3使用platform-aware NAS搜索全局网络结构的优化block，也
   swish激活函数能够有效提高网络的精度，但是swish的计算量太大，且求导复杂，对量化过程不友好，并不适合后续应用到手机这类移动设备上。因此找到了h-swish函数来代替swish函数。
 
   <center>
-  <img src="E:\硕士研究生\CV视觉指南\Step_Six\论文笔记\Light_weight_Deep_Neural_Networks\MobileNets\MobileNets.assets\image-20221225223243313.png" width=20%>
+  <img src="/notes/Light_weight_Deep_Neural_Networks/MobileNets/MobileNets.assets/image-20221225223243313.png" width=20%>
   </center>
   <center>
-  <img src="E:\硕士研究生\CV视觉指南\Step_Six\论文笔记\Light_weight_Deep_Neural_Networks\MobileNets\MobileNets.assets\image-20221225223819762.png" width=40%>
+  <img src="/notes/Light_weight_Deep_Neural_Networks/MobileNets/MobileNets.assets/image-20221225223819762.png" width=40%>
   </center>
   <center><font face="微软雅黑" size ='4'>图17</font></center>
 
@@ -305,7 +305,7 @@ MobileNet V3使用platform-aware NAS搜索全局网络结构的优化block，也
   在网络进行到较深的层数时，使用非线性激活函数带来的负面影响将会减弱，因为在网络较深时，随着特征图尺寸的减小，内存占用也相应地减半。又因为swish函数应用在较深的网络层数中 可以发挥其优势，所以相应地，h-swish函数也在网络层数较深时使用：
 
   <center>
-  <img src="E:\硕士研究生\CV视觉指南\Step_Six\论文笔记\Light_weight_Deep_Neural_Networks\MobileNets\MobileNets.assets\image-20221225225244904.png" width=50%>
+  <img src="/notes/Light_weight_Deep_Neural_Networks/MobileNets/MobileNets.assets/image-20221225225244904.png" width=50%>
   </center>
   <center><font face="微软雅黑" size ='4'>图18</font></center>
 
@@ -314,7 +314,7 @@ MobileNet V3使用platform-aware NAS搜索全局网络结构的优化block，也
   + 减少第一层卷积核的个数
 
     <center>
-    <img src="E:\硕士研究生\CV视觉指南\Step_Six\论文笔记\Light_weight_Deep_Neural_Networks\MobileNets\MobileNets.assets\image-20221225225917193.png" width=70%>
+    <img src="/notes/Light_weight_Deep_Neural_Networks/MobileNets/MobileNets.assets/image-20221225225917193.png" width=70%>
     </center>
     <center><font face="微软雅黑" size ='4'>图19</font></center>
 
@@ -323,7 +323,7 @@ MobileNet V3使用platform-aware NAS搜索全局网络结构的优化block，也
   + 精简Last stage结构
 
     <center>
-    <img src="E:\硕士研究生\CV视觉指南\Step_Six\论文笔记\Light_weight_Deep_Neural_Networks\MobileNets\MobileNets.assets\image-20221225230215944.png" width=70%>
+    <img src="/notes/Light_weight_Deep_Neural_Networks/MobileNets/MobileNets.assets/image-20221225230215944.png" width=70%>
     </center>
     <center><font face="微软雅黑" size ='4'>图20</font></center>
 
