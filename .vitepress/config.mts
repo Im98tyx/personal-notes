@@ -14,49 +14,49 @@ export default defineConfig({
       { text: 'AI Notes', items:[
         {text:"总览", link:'/notes/README.md'},
         {text:"Basic Knowledge", items:[
-          {text:"Step_One", link:'/notes/Basic_Knowledge/Step_One/StepOne.pdf'},
-          {text:"Step_Two", link:'/notes/Basic_Knowledge/Step_Two/Step_Two_2022.10.26&2022.10.27提问.pdf'},
-          {text:"Step_Three", link:'/notes/Basic_Knowledge/Step_Three/Step_Three_Q&A.pdf'},
+          {text:"Step_One", link:'/notes/basic_knowledge/step_one/stepone.pdf'},
+          {text:"Step_Two", link:'/notes/basic_knowledge/step_two/steptwo.pdf'},
+          {text:"Step_Three", link:'/notes/basic_knowledge/step_three/stepthree.pdf'},
         ]},
         {text:"Classical CNNs for Classification", items:[
-          {text:"A_ConvNet_for_the_2020s", link:'/notes/Classical_CNNs_for_classification/A_ConvNet_for_the_2020s/A_ConvNet_for_the_2020s.pdf'},
-          {text:"AlexNet", link:'/notes/Classical_CNNs_for_classification/AlexNet/2012-AlexNet.pdf'},
-          {text:"BatchNormalization", link:'/notes/BatchNormalization/BatchNormalizaiton.pdf'},
-          {text:"CSPNet", link:'/notes/Classical_CNNs_for_classification/CSPNet/CSPNet.pdf'},
-          {text:"DenseNet", link:'/notes/Classical_CNNs_for_classification/DenseNet/DenseNet.pdf'},
-          {text:"Dropout", link:'/notes/Classical_CNNs_for_classification/Dropout/Dropout.pdf'},
+          {text:"A_ConvNet_for_the_2020s", link:'/notes/classical_cnns_for_classification/a_convnet_for_the_2020s/a_convNet_for_the_2020s.pdf'},
+          {text:"AlexNet", link:'/notes/classical_cnns_for_classification/alexnet/2012-alexnet.pdf'},
+          {text:"BatchNormalization", link:'/notes/classical_cnns_for_classification/batchnormalization/batchnormalizaiton.pdf'},
+          {text:"CSPNet", link:'/notes/classical_cnns_for_classification/cspnet/cspnet.pdf'},
+          {text:"DenseNet", link:'/notes/classical_cnns_for_classification/densenet/densenet.pdf'},
+          {text:"Dropout", link:'/notes/classical_cnns_for_classification/dropout/dropout.pdf'},
           {text:"Inception", items:[
-            {text:"Inception_v1", link:'/notes/Classical_CNNs_for_classification/Inception/Inception_v1.pdf'},
-            {text:"Inception_v2v3", link:'/notes/Classical_CNNs_for_classification/Inception/Inception_v2v3.pdf'}
+            {text:"Inception_v1", link:'/notes/classical_cnns_for_classification/inception/inception_v1.pdf'},
+            {text:"Inception_v2v3", link:'/notes/classical_cnns_for_classification/inception/inception_v2v3.pdf'}
           ]},
-          {text:"RepLKNet", link:'/notes/Classical_CNNs_for_classification/RepLKNet/RepLKNet.pdf'},
-          {text:"RepVGG", link:'/notes/Classical_CNNs_for_classification/RepVGG/RepVGG.pdf'},
-          {text:"ResNet", link:'/notes/Classical_CNNs_for_classification/ResNet/ResNet.pdf'},
+          {text:"RepLKNet", link:'/notes/classical_cnns_for_classification/replknet/replknet.pdf'},
+          {text:"RepVGG", link:'/notes/classical_cnns_for_classification/repvgg/repvgg.pdf'},
+          {text:"ResNet", link:'/notes/classical_cnns_for_classification/resnet/resnet.pdf'},
         ]},
         {text:"Feature Pyramid", items:[
-          {text:"ASPP", link:'/notes/Feature_Pyramid(continued)/2017-ASPP.docx'},
-          {text:"FPN", link:'/notes/Feature_Pyramid(continued)/2017-FPN.docx'},
-          {text:"PANet", link:'/notes/Feature_Pyramid(continued)/2018-PANet.docx'},
-          {text:"RFB", link:'/notes/Feature_Pyramid(continued)/2018-RFB.docx'},
-          {text:"ASFF", link:'/notes/Feature_Pyramid(continued)/2019-ASFF.docx'},
-          {text:"FPT", link:'/notes/Feature_Pyramid(continued)/2020-FPT.docx'},
-          {text:"YOLOF", link:'/notes/Feature_Pyramid(continued)/2021-YOLOF.docx'}
+          {text:"ASPP", link:'/notes/feature_pyramid/asff.docx'},
+          {text:"FPN", link:'/notes/feature_pyramid/fpn.docx'},
+          {text:"PANet", link:'/notes/feature_pyramid/panet.docx'},
+          {text:"RFB", link:'/notes/feature_pyramid/rfb.docx'},
+          {text:"ASFF", link:'/notes/feature_pyramid/asff.docx'},
+          {text:"FPT", link:'/notes/feature_pyramid/fpt.docx'},
+          {text:"YOLOF", link:'/notes/feature_pyramid/yolof.docx'}
         ]},
         {text:"Light Weight Deep CNNs", items:[
-          {text:"MobileNets", link:'/notes/Light_weight_Deep_Neural_Networks/MobileNets/MobileNets.md'},
+          {text:"MobileNets", link:'/notes/light_weight_deep_neural_networks/mobilenets/mobilenets.md'},
           {text:"ShuffleNets", items:[
-            {text:"ShuffleNetV1", link:'/notes/Light_weight_Deep_Neural_Networks/ShuffleNets/ShuffleNetV1.pdf'},
-            {text:"ShuffleNetV2", link:'/notes/Light_weight_Deep_Neural_Networks/ShuffleNets/ShuffleNetV2.pdf'}
+            {text:"ShuffleNetV1", link:'/notes/light_weight_deep_neural_networks/shufflenets/shufflenetv1.pdf'},
+            {text:"ShuffleNetV2", link:'/notes/light_weight_deep_neural_networks/shufflenets/shufflenetv2.pdf'}
           ]},
-          {text:"EfficientNets", link:'/notes/Light_weight_Deep_Neural_Networks/EfficientNets.pdf'},
-          {text:"GhostNet", link:'/notes/Light_weight_Deep_Neural_Networks/GhostNet.pdf'},
-          {text:"MicroNet", link:'/notes/Light_weight_Deep_Neural_Networks/MicroNet.pdf'},
+          {text:"EfficientNets", link:'/notes/light_weight_deep_neural_networks/efficientnets.pdf'},
+          {text:"GhostNet", link:'/notes/light_weight_deep_neural_networks/ghostnet.pdf'},
+          {text:"MicroNet", link:'/notes/light_weight_deep_neural_networks/micronet.pdf'},
         ]},
-        {text:"Shape Bias", link:'/notes/Shape-bias/Inductive_Biases/Inductive_Biases.pdf'},
+        {text:"Shape Bias", link:'/notes/shape-bias/inductive_biases/inductive_biases.pdf'},
         {text:"Transformers", items:[
-          {text:"Transformer", link:'/notes/Transformers/2017-Transformer/Transformer.pdf'},
+          {text:"Transformer", link:'/notes/transformers/2017-transformer/transformer.pdf'},
         ]},
-        {text:"思考总结", link:'/notes/大总结.pdf'}
+        {text:"思考总结", link:'/notes/sum.pdf'}
       ] },
       { text: 'Examples', link: '/markdown-examples' }
     ],
