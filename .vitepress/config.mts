@@ -3,6 +3,7 @@ import { set_sidebar } from "../utils/auto-gen-sidebar.mjs";	// 改成自己的�
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: '/personal-notes/', // 替换为你的 GitHub 仓库名
   // 修改浏览器标签页的图标
   head: [["link", { rel: "icon", href: "/logo.png" }]],
   title: "My Learning Notes",
@@ -100,3 +101,5 @@ export default defineConfig({
   },    
   }
 })
+
+
